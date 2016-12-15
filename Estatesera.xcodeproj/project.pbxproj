@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C64FF9C61DE738E80099C138 /* Estates.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64FF9C51DE738E80099C138 /* Estates.swift */; };
 		C6717E4B1DDA07B000F999D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6717E4A1DDA07B000F999D5 /* AppDelegate.swift */; };
 		C6717E4D1DDA07B100F999D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6717E4C1DDA07B100F999D5 /* ViewController.swift */; };
 		C6717E501DDA07B100F999D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6717E4E1DDA07B100F999D5 /* Main.storyboard */; };
 		C6717E521DDA07B100F999D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6717E511DDA07B100F999D5 /* Assets.xcassets */; };
 		C6717E551DDA07B100F999D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6717E531DDA07B100F999D5 /* LaunchScreen.storyboard */; };
+		C6717E5D1DDA0AF700F999D5 /* EstatesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6717E5C1DDA0AF700F999D5 /* EstatesTableViewController.swift */; };
+		C6717E5F1DDA10C100F999D5 /* EstatesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6717E5E1DDA10C100F999D5 /* EstatesTableViewCell.swift */; };
+		C67F25E81DE5DB2D0072A2D0 /* EstatesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67F25E71DE5DB2D0072A2D0 /* EstatesDetailViewController.swift */; };
+		C6B2BB811DEE210800A8DEF8 /* EstatesDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B2BB801DEE210800A8DEF8 /* EstatesDetailTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C64FF9C51DE738E80099C138 /* Estates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Estates.swift; sourceTree = "<group>"; };
 		C6717E471DDA07B000F999D5 /* Estatesera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Estatesera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6717E4A1DDA07B000F999D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6717E4C1DDA07B100F999D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,10 @@
 		C6717E511DDA07B100F999D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6717E541DDA07B100F999D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6717E561DDA07B100F999D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6717E5C1DDA0AF700F999D5 /* EstatesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EstatesTableViewController.swift; sourceTree = "<group>"; };
+		C6717E5E1DDA10C100F999D5 /* EstatesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EstatesTableViewCell.swift; sourceTree = "<group>"; };
+		C67F25E71DE5DB2D0072A2D0 /* EstatesDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EstatesDetailViewController.swift; sourceTree = "<group>"; };
+		C6B2BB801DEE210800A8DEF8 /* EstatesDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EstatesDetailTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +65,16 @@
 			isa = PBXGroup;
 			children = (
 				C6717E4A1DDA07B000F999D5 /* AppDelegate.swift */,
+				C6B2BB801DEE210800A8DEF8 /* EstatesDetailTableViewCell.swift */,
 				C6717E4C1DDA07B100F999D5 /* ViewController.swift */,
+				C6717E5C1DDA0AF700F999D5 /* EstatesTableViewController.swift */,
+				C67F25E71DE5DB2D0072A2D0 /* EstatesDetailViewController.swift */,
+				C6717E5E1DDA10C100F999D5 /* EstatesTableViewCell.swift */,
 				C6717E4E1DDA07B100F999D5 /* Main.storyboard */,
 				C6717E511DDA07B100F999D5 /* Assets.xcassets */,
 				C6717E531DDA07B100F999D5 /* LaunchScreen.storyboard */,
 				C6717E561DDA07B100F999D5 /* Info.plist */,
+				C64FF9C51DE738E80099C138 /* Estates.swift */,
 			);
 			path = Estatesera;
 			sourceTree = "<group>";
@@ -138,7 +153,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6717E4D1DDA07B100F999D5 /* ViewController.swift in Sources */,
+				C6B2BB811DEE210800A8DEF8 /* EstatesDetailTableViewCell.swift in Sources */,
+				C64FF9C61DE738E80099C138 /* Estates.swift in Sources */,
+				C6717E5F1DDA10C100F999D5 /* EstatesTableViewCell.swift in Sources */,
 				C6717E4B1DDA07B000F999D5 /* AppDelegate.swift in Sources */,
+				C67F25E81DE5DB2D0072A2D0 /* EstatesDetailViewController.swift in Sources */,
+				C6717E5D1DDA0AF700F999D5 /* EstatesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +320,7 @@
 				C6717E5B1DDA07B100F999D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
